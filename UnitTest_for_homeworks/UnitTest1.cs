@@ -11,9 +11,9 @@ namespace UnitTest_for_homeworks
         public void GetSumOfAllNumbers()
         {
             var assemblies = new[]
-           {
-            Assembly.Load("zait_olzhas"),
-            // Add more assemblies as needed
+            {
+                Assembly.Load("zait_olzhas"),
+                // Add more assemblies as needed
             };
             var failures = new List<string>();
             foreach (var assembly in assemblies)
@@ -36,7 +36,7 @@ namespace UnitTest_for_homeworks
                         var result = classUnderTest.GetSumOfAllNumbers(numbers);
 
                         // Assert
-                        Assert.AreEqual(152,result);
+                        Assert.AreEqual(15,result);
                     }
                     catch (AssertFailedException)
                     {
