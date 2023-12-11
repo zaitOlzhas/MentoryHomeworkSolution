@@ -10,6 +10,7 @@ namespace MentoryHomeworkConsoleApp
             decimal[] numbers = { 1, 2, 3, 4, 5 };
             decimal sum = arrayTasks.GetSumOfAllNumbers(numbers);
             Console.WriteLine(sum);
+            Console.WriteLine("Testing actions");
             Console.ReadKey();
         }
     }
