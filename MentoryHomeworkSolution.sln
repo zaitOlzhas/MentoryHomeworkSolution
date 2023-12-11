@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoryHomeworkConsoleApp", "MentoryHomeworkConsoleApp\MentoryHomeworkConsoleApp.csproj", "{7AF73D90-E719-44CE-B1E0-9843D42F287B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainHomeworkRequirements", "MainHomeworkRequirements\MainHomeworkRequirements.csproj", "{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zait_olzhas", "zait_olzhas\zait_olzhas.csproj", "{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWorks", "HomeWorks", "{299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_for_homeworks", "UnitTest_for_homeworks\UnitTest_for_homeworks.csproj", "{08ED6588-CC6C-4D09-924F-43F7C95727BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF73D90-E719-44CE-B1E0-9843D42F287B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF73D90-E719-44CE-B1E0-9843D42F287B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF73D90-E719-44CE-B1E0-9843D42F287B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF73D90-E719-44CE-B1E0-9843D42F287B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD3E2501-9D3C-4CEB-A1D3-B832455247E6}
+	EndGlobalSection
+EndGlobal
