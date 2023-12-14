@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MainHomeworkRequirements\MainHomeworkRequirements.csproj" />
+    <ProjectReference Include="..\yernur_zhex\yernur_zhex.csproj" />
     <ProjectReference Include="..\zait_olzhas\zait_olzhas.csproj" />
   </ItemGroup>
 
