@@ -3,7 +3,9 @@
 namespace issakov_alexey
 {
 
-    public class ArrayTasksOfMine : IArrayTasks
+
+    public class Array : IArrayTasks
+
     {
         public decimal GetSumOfAllNumbers(decimal[] numbers)
         {
