@@ -1,15 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\yermagambetov_daniyar\yermagambetov_daniyar.csproj" />
-    <ProjectReference Include="..\zait_olzhas\zait_olzhas.csproj" />
+    <ProjectReference Include="..\MainHomeworkRequirements\MainHomeworkRequirements.csproj" />
   </ItemGroup>
 
 </Project>

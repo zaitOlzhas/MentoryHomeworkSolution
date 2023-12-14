@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoryHomeworkConsoleApp", "MentoryHomeworkConsoleApp\MentoryHomeworkConsoleApp.csproj", "{7AF73D90-E719-44CE-B1E0-9843D42F287B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentoryHomeworkConsoleApp", "MentoryHomeworkConsoleApp\MentoryHomeworkConsoleApp.csproj", "{7AF73D90-E719-44CE-B1E0-9843D42F287B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainHomeworkRequirements", "MainHomeworkRequirements\MainHomeworkRequirements.csproj", "{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainHomeworkRequirements", "MainHomeworkRequirements\MainHomeworkRequirements.csproj", "{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zait_olzhas", "zait_olzhas\zait_olzhas.csproj", "{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zait_olzhas", "zait_olzhas\zait_olzhas.csproj", "{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWorks", "HomeWorks", "{299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_for_homeworks", "UnitTest_for_homeworks\UnitTest_for_homeworks.csproj", "{08ED6588-CC6C-4D09-924F-43F7C95727BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_for_homeworks", "UnitTest_for_homeworks\UnitTest_for_homeworks.csproj", "{08ED6588-CC6C-4D09-924F-43F7C95727BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issakov_alexey", "issakov_alexey\issakov_alexey.csproj", "{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "issakov_alexey", "issakov_alexey\issakov_alexey.csproj", "{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yermagambetov_daniyar", "yermagambetov_daniyar\yermagambetov_daniyar.csproj", "{203CB685-438E-40D9-88B8-7EEBE06272FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203CB685-438E-40D9-88B8-7EEBE06272FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203CB685-438E-40D9-88B8-7EEBE06272FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203CB685-438E-40D9-88B8-7EEBE06272FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203CB685-438E-40D9-88B8-7EEBE06272FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
+		{203CB685-438E-40D9-88B8-7EEBE06272FC} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD3E2501-9D3C-4CEB-A1D3-B832455247E6}
