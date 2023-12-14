@@ -13,6 +13,7 @@ namespace UnitTest_for_homeworks
             var assemblies = new[]
             {
                 Assembly.Load("zait_olzhas"),
+                Assembly.Load("issakov_alexey")
                 // Add more assemblies as needed
             };
             var failures = new List<string>();
