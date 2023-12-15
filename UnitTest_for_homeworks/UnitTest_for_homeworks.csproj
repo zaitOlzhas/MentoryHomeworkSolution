@@ -18,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\issakov_alexey\issakov_alexey.csproj" />
     <ProjectReference Include="..\MainHomeworkRequirements\MainHomeworkRequirements.csproj" />
+    <ProjectReference Include="..\yernur_zhex\yernur_zhex.csproj" />
     <ProjectReference Include="..\zait_olzhas\zait_olzhas.csproj" />
   </ItemGroup>
 
