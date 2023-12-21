@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_for_homeworks", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issakov_alexey", "issakov_alexey\issakov_alexey.csproj", "{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yernur_zhex", "yernur_zhex\yernur_zhex.csproj", "{F8B214A7-03B7-4027-8F0B-EE5A46F3ADC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yernur_zhex", "yernur_zhex\yernur_zhex.csproj", "{F8B214A7-03B7-4027-8F0B-EE5A46F3ADC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhaxybayev_askhat", "zhaxybayev_askhat\zhaxybayev_askhat.csproj", "{B4014FD8-C33E-43C8-8926-AF10682CCEB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhaxybayev_askhat", "zhaxybayev_askhat\zhaxybayev_askhat.csproj", "{B4014FD8-C33E-43C8-8926-AF10682CCEB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aituar_erzhan", "aituar_erzhan\aituar_erzhan.csproj", "{930E604D-ED7A-4389-BE67-809083033E82}"
 EndProject
