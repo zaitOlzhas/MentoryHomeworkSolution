@@ -14,6 +14,7 @@ namespace UnitTest_for_homeworks
             {
                 Assembly.Load("zait_olzhas"),
                 Assembly.Load("yernur_zhex"),
+                Assembly.Load("kassymov_daulet"),
                 Assembly.Load("issakov_alexey")
                 // Add more assemblies as needed
             };
