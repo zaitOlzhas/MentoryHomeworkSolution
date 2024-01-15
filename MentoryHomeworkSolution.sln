@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoryHomeworkConsoleApp", "MentoryHomeworkConsoleApp\MentoryHomeworkConsoleApp.csproj", "{7AF73D90-E719-44CE-B1E0-9843D42F287B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentoryHomeworkConsoleApp", "MentoryHomeworkConsoleApp\MentoryHomeworkConsoleApp.csproj", "{7AF73D90-E719-44CE-B1E0-9843D42F287B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainHomeworkRequirements", "MainHomeworkRequirements\MainHomeworkRequirements.csproj", "{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainHomeworkRequirements", "MainHomeworkRequirements\MainHomeworkRequirements.csproj", "{5473BB1E-2FC7-4EAA-92AE-4B3F5FB1300C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zait_olzhas", "zait_olzhas\zait_olzhas.csproj", "{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zait_olzhas", "zait_olzhas\zait_olzhas.csproj", "{639CAC0E-2F97-406E-81F7-8EA8C3C33B52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWorks", "HomeWorks", "{299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_for_homeworks", "UnitTest_for_homeworks\UnitTest_for_homeworks.csproj", "{08ED6588-CC6C-4D09-924F-43F7C95727BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest_for_homeworks", "UnitTest_for_homeworks\UnitTest_for_homeworks.csproj", "{08ED6588-CC6C-4D09-924F-43F7C95727BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issakov_alexey", "issakov_alexey\issakov_alexey.csproj", "{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "issakov_alexey", "issakov_alexey\issakov_alexey.csproj", "{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yernur_zhex", "yernur_zhex\yernur_zhex.csproj", "{F8B214A7-03B7-4027-8F0B-EE5A46F3ADC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yernur_zhex", "yernur_zhex\yernur_zhex.csproj", "{F8B214A7-03B7-4027-8F0B-EE5A46F3ADC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kassymov_daulet", "kassymov_daulet\kassymov_daulet.csproj", "{13E67BA6-8834-4A74-8FA1-2F8A28351E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kassymov_daulet", "kassymov_daulet\kassymov_daulet.csproj", "{13E67BA6-8834-4A74-8FA1-2F8A28351E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhaxybayev_askhat", "zhaxybayev_askhat\zhaxybayev_askhat.csproj", "{B4014FD8-C33E-43C8-8926-AF10682CCEB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zhaxybayev_askhat", "zhaxybayev_askhat\zhaxybayev_askhat.csproj", "{B4014FD8-C33E-43C8-8926-AF10682CCEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aituar_erzhan", "aituar_erzhan\aituar_erzhan.csproj", "{930E604D-ED7A-4389-BE67-809083033E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aituar_erzhan", "aituar_erzhan\aituar_erzhan.csproj", "{930E604D-ED7A-4389-BE67-809083033E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daniyar_Yermagambetov", "Daniyar_Yermagambetov\Daniyar_Yermagambetov.csproj", "{6147805D-B229-4BA1-B894-F9CD0AE53CDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +47,6 @@ Global
 		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08ED6588-CC6C-4D09-924F-43F7C95727BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,21 +59,30 @@ Global
 		{13E67BA6-8834-4A74-8FA1-2F8A28351E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E67BA6-8834-4A74-8FA1-2F8A28351E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E67BA6-8834-4A74-8FA1-2F8A28351E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4014FD8-C33E-43C8-8926-AF10682CCEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{930E604D-ED7A-4389-BE67-809083033E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{930E604D-ED7A-4389-BE67-809083033E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930E604D-ED7A-4389-BE67-809083033E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930E604D-ED7A-4389-BE67-809083033E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6147805D-B229-4BA1-B894-F9CD0AE53CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6147805D-B229-4BA1-B894-F9CD0AE53CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6147805D-B229-4BA1-B894-F9CD0AE53CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6147805D-B229-4BA1-B894-F9CD0AE53CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{639CAC0E-2F97-406E-81F7-8EA8C3C33B52} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
-		{B4014FD8-C33E-43C8-8926-AF10682CCEB5} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{09A646BB-6F84-4538-BED3-B61B2BF7E6F6} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{F8B214A7-03B7-4027-8F0B-EE5A46F3ADC5} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{13E67BA6-8834-4A74-8FA1-2F8A28351E9D} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
+		{B4014FD8-C33E-43C8-8926-AF10682CCEB5} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{930E604D-ED7A-4389-BE67-809083033E82} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
+		{6147805D-B229-4BA1-B894-F9CD0AE53CDA} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD3E2501-9D3C-4CEB-A1D3-B832455247E6}
