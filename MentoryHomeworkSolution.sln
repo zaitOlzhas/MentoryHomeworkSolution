@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kassymov_daulet", "kassymov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhaxybayev_askhat", "zhaxybayev_askhat\zhaxybayev_askhat.csproj", "{B4014FD8-C33E-43C8-8926-AF10682CCEB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aituar_erzhan", "aituar_erzhan\aituar_erzhan.csproj", "{930E604D-ED7A-4389-BE67-809083033E82}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yermagambetov_Daniyar", "Yermagambetov_Daniyar\Yermagambetov_Daniyar.csproj", "{BEB0DDD6-563D-4266-9608-4F3505A626B0}"
 EndProject
 Global
