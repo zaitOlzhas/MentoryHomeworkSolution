@@ -1,4 +1,5 @@
-﻿using zait_olzhas;
+﻿using MainHomeworkRequirements.Classes;
+using zait_olzhas;
 
 namespace MentoryHomeworkConsoleApp
 {
@@ -13,9 +14,18 @@ namespace MentoryHomeworkConsoleApp
             students.Add(new Student("Ernurr", 21, 14));
             students.Add(new Student("Olzhas", 22, 19));
             students.Add(new Student("Askhat", 23, 11));
+
+            Console.WriteLine("Original list.");
             Console.WriteLine(string.Join("\r\n", students));
             Console.WriteLine();
+
+            Console.WriteLine("Sort by age list.");
             students.Sort();
+            Console.WriteLine(string.Join("\r\n", students));
+            Console.WriteLine();
+
+            Console.WriteLine("Sort by student id list via IComparer.");
+            students.Sort(new PersonComparer());
             Console.WriteLine(string.Join("\r\n", students));
         }
     }
