@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yermagambetov_Daniyar", "Ye
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "timur_naskenov", "timur_naskenov\timur_naskenov.csproj", "{6EA17B38-8FB3-4AFF-995C-47463A964CBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nauryzbek_salimgereyev", "Nauryzbek_salimgereyev\Nauryzbek_salimgereyev.csproj", "{26F715F3-239D-4F49-8ADF-300D72896CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{6EA17B38-8FB3-4AFF-995C-47463A964CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA17B38-8FB3-4AFF-995C-47463A964CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA17B38-8FB3-4AFF-995C-47463A964CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F715F3-239D-4F49-8ADF-300D72896CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F715F3-239D-4F49-8ADF-300D72896CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F715F3-239D-4F49-8ADF-300D72896CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F715F3-239D-4F49-8ADF-300D72896CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{930E604D-ED7A-4389-BE67-809083033E82} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{BEB0DDD6-563D-4266-9608-4F3505A626B0} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 		{6EA17B38-8FB3-4AFF-995C-47463A964CBC} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
+		{26F715F3-239D-4F49-8ADF-300D72896CCA} = {299D2007-C6F5-4E79-9F4B-3C4AFDEE9997}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD3E2501-9D3C-4CEB-A1D3-B832455247E6}
