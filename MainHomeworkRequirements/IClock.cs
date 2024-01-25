@@ -62,11 +62,11 @@ namespace MainHomeworkRequirements
         /// </summary>
         event TimeHandler SnoozeActivated;
         /// <summary>
-        /// Event to fire when clock is already running and start is called
+        /// Event to fire when clock is already running and stop is called
         /// </summary>
         event TimeHandler FalseStop;
         /// <summary>
-        /// Event to fire when clock is already stopped and stop is called
+        /// Event to fire when clock is already stopped and start is called
         /// </summary>
         event TimeHandler FalseStart;
     }
