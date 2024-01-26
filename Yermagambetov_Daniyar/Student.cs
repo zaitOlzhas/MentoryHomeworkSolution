@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 
 namespace Yermagambetov_Daniyar
 {
-    public class Student : IComparable<Student>
+    public class Student : Person
     {
-        public string Name { get; }
-        public int Age { get; set; }
         public int StudentId { get; set; }
 
-        public Student(string name, int age, int id)
+        public Student(string name, int age, int id) : base(name, age)
         {
-            StudentId = id; Name = name; Age = age;
+            StudentId = id;
         }
-        public int CompareTo(Student? person)
-        {
-            if (person is null) throw new ArgumentException("Некорректное значение параметра");
-            return StudentId.CompareTo(person.StudentId);
-        }
+      
         public override string ToString()
         {
             return $"StudentId: {StudentId}, Name: {Name}, Age: {Age}";
