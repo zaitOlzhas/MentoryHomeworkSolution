@@ -1,6 +1,4 @@
 ﻿using MainHomeworkRequirements;
-using zait_olzhas.ClockTask;
-
 namespace MentoryHomeworkConsoleApp
 {
     internal class Program
