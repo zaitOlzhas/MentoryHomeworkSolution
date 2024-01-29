@@ -1,26 +1,27 @@
 ﻿using MainHomeworkRequirements;
+using issakov_alexey;
 namespace MentoryHomeworkConsoleApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //IClock clock = new Clock();
-            //clock.Start();
-            //clock.ClockStarted += Clock_ClockStarted;
-            //clock.ClockStopped += Clock_ClockStopped;
-            //clock.Alarm += Clock_Alarm;
-            //clock.HourChanged += Clock_HourChanged;
-            //clock.MinuteChanged += Clock_MinuteChanged;
-            //clock.SecondChanged += Clock_SecondChanged;
-            //clock.AlarmSet += Clock_AlarmSet;
-            //clock.FalseStart += Clock_FalseStart;
-            //clock.FalseStop += Clock_FalseStop;
-            //clock.SnoozeActivated += Clock_SnoozeActivated;
-            //clock.AlarmTime = DateTime.Now.AddMinutes(1);
-            //clock.Start();
-            //Console.ReadKey();
-            //clock.Stop();
+            IClock clock = new Clock();
+            clock.Start();
+            clock.ClockStarted += Clock_ClockStarted;
+            clock.ClockStopped += Clock_ClockStopped;
+            clock.Alarm += Clock_Alarm;
+            clock.HourChanged += Clock_HourChanged;
+            clock.MinuteChanged += Clock_MinuteChanged;
+            clock.SecondChanged += Clock_SecondChanged;
+            clock.AlarmSet += Clock_AlarmSet;
+            clock.FalseStart += Clock_FalseStart;
+            clock.FalseStop += Clock_FalseStop;
+            clock.SnoozeActivated += Clock_SnoozeActivated;
+            clock.AlarmTime = DateTime.Now.AddMinutes(1);
+            clock.Start();
+            Console.ReadKey();
+            clock.Stop();
         }
 
         private static void Clock_FalseStop(IClock sender)
@@ -35,7 +36,7 @@ namespace MentoryHomeworkConsoleApp
 
         private static void Clock_FalseStart(IClock sender)
         {
-           Console.WriteLine($"Clock is already running {sender.ClockTime}");
+           Console.WriteLine($"Clock is already running {DateTime.Now}");
         }
 
         private static void Clock_AlarmSet(IClock sender)
