@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\issakov_alexey\issakov_alexey.csproj" />
-    <ProjectReference Include="..\zait_olzhas\zait_olzhas.csproj" />
+    <ProjectReference Include="..\Daulet_Abdikerim\Daulet_Abdikerim.csproj" />
   </ItemGroup>
 
 </Project>
