@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Yermagambetov_Daniyar
 {
-    public class Student : Person
+    public class Student : Person,  IComparable<Student>
     {
         public int StudentId { get; set; }
 
@@ -15,14 +15,10 @@ namespace Yermagambetov_Daniyar
         {
             StudentId = id; 
         }
-        public int CompareTo(Student? person)
+
+        public int CompareTo(Student? other)
         {
-            if (person is null) throw new ArgumentException("Некорректное значение параметра");
-            return StudentId.CompareTo(person.StudentId);
-        }
-        public override string ToString()
-        {
-            return $"StudentId: {StudentId}, Name: {Name}, Age: {Age}";
+            throw new NotImplementedException();
         }
     }
 }
