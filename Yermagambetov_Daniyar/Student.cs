@@ -1,6 +1,7 @@
 ﻿using MainHomeworkRequirements.Classes;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,8 @@ namespace Yermagambetov_Daniyar
 
         public int CompareTo(Student? other)
         {
-            throw new NotImplementedException();
+            if (other is null) throw new ArgumentNullException("Не присвоено значение.");
+            else return StudentId.CompareTo(other.StudentId);
         }
     }
 }
