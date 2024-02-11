@@ -1,5 +1,5 @@
 ﻿using MainHomeworkRequirements;
-using issakov_alexey;
+using Daulet_Abdikerim;
 namespace MentoryHomeworkConsoleApp
 {
     internal class Program
