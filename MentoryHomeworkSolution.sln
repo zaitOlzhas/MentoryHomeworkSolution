@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balniyazov_Daniyar", "Balni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daulet_Abdikerim", "Daulet_Abdikerim\Daulet_Abdikerim.csproj", "{25611637-3830-46D9-AFF1-BB022575A20B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orazbek_abzal", "orazbek_abzal\orazbek_abzal.csproj", "{7B6FF5A4-3457-46E4-A032-2AECAAD20062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
